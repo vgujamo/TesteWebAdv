@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --require features/suport/*.js  --format json:reports/cucumber-report.json",
+    "test": "cucumber-js --require features/suport/**/*.js  --format json:reports/cucumber-report.json",
     "report": "node generate-report.js"
   },
   "repository": {
