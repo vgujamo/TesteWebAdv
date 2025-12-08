@@ -1,0 +1,10 @@
+# Ignore all .json files except
+packege.jason
+packege-lock.jason
+
+# Node modules
+node_modules/
+
+# Playwright test reports
+playwright-report/
+html-report/ 
